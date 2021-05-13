@@ -149,7 +149,7 @@ define config.save_directory = "fhdemo-1620720420"
 ##
 ## The icon displayed on the taskbar or dock.
 
-define config.window_icon = "gui/window_icon.png"
+define config.window_icon = "gui/icon.png"
 
 
 ## Build configuration #########################################################
@@ -182,6 +182,7 @@ init python:
     build.classify('**/.**', None)
     build.classify('**/#**', None)
     build.classify('**/thumbs.db', None)
+    build.classify('gimp_projects/', None)
 
     ## To archive files, classify them as 'archive'.
 

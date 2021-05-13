@@ -48,8 +48,10 @@ define gui.muted_color = u'#003d51'
 define gui.hover_muted_color = u'#005b7a'
 
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = u'#ffffff'
-define gui.interface_text_color = u'#ffffff'
+define gui.text_color = u'#c2b59b'
+define gui.interface_text_color = u'#c2b59b'
+define gui.interface_text_outline_color = u'#544b40'
+define gui.interface_text_outline_size = 1
 
 
 ## Fonts and Font Sizes ########################################################
@@ -86,7 +88,7 @@ define gui.title_text_size = 75
 
 ## The images used for the main and game menus.
 define gui.main_menu_background = "images/bg/mm.png"
-define gui.game_menu_background = "gui/game_menu.png"
+define gui.game_menu_background = "images/bg/mm.png"
 
 
 ## Dialogue ####################################################################
@@ -160,12 +162,15 @@ define gui.button_text_font = gui.interface_text_font
 
 ## The size of the text used by the button.
 define gui.button_text_size = gui.interface_text_size
+define gui.button_text_outline_size = gui.interface_text_outline_size
 
 ## The color of button text in various states.
 define gui.button_text_idle_color = gui.idle_color
 define gui.button_text_hover_color = gui.hover_color
 define gui.button_text_selected_color = gui.selected_color
 define gui.button_text_insensitive_color = gui.insensitive_color
+define gui.button_text_outline_color = gui.interface_text_outline_color
+
 
 ## The horizontal alignment of the button text. (0.0 is left, 0.5 is center, 1.0
 ## is right).
