@@ -1,0 +1,6 @@
+define mikka = Character("Mikka")
+define chioko = Character("Chioko")
+define rina = Character("Rina")
+define heiwako = Character("Heiwako")
+define masuyo = Character("Masuyo")
+define kameko = Character("Kameko")
