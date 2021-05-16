@@ -15,15 +15,20 @@ def resize_list(file_list, width, height, dsonly):
       # ignore files that are the same size already
       if im.size == (width, height):
         ignored_files += 1
+        continue
+
       # ignore files that are smaller to told to
       if dsonly:
-        if im.size[0] < width or im.size[1] < height:
+        dimx, dimy = im.size
+        if dimx < width or dimy < height:
           ignored_files += 1
-      im.resize((width, height))
+          continue
+
+      im = im.resize((width, height))
       im.save(file)
       changed_files += 1
     except IOError:
-      pass
+      continue
 
   return changed_files, ignored_files
 
@@ -34,8 +39,10 @@ def collect_filepaths(path, recurse):
       for file in files:
         filelist.append(os.path.join(root, file))
   else:
-    for filename in glob.iglob(path + '**/**', recursive=True):
+    _,_,filenames = next(os.walk(path), (None, None, []))
+    for filename in filenames:
       filelist.append(os.path.join(path, filename))
+
   return filelist
 
 def main():
@@ -48,11 +55,13 @@ def main():
   parser.add_argument('--downscale_only', help='Prevents the program from upscaling images that are smaller than the given resolution.', action='store_true')
   args = parser.parse_args()
   print('Working...')
-  fl = collect_filepaths(args.path, args.recursive)
   start_time = time.perf_counter()
+  print('Collecting files at given path...')
+  fl = collect_filepaths(args.path, args.recursive)
+  print('Resizing files...')
   change_count, ignore_count = resize_list(fl, args.width, args.height, args.downscale_only)
   stop_time = time.perf_counter()
-  print(f'Resized {change_count} files in {stop_time-start_time:0.4f} seconds (an additional {ignore_count} files were ignored).')
+  print(f'Resized {change_count} file(s) in {stop_time-start_time:0.4f} seconds (an additional {ignore_count} file(s) were ignored).')
 
 if __name__ == "__main__":
   main()

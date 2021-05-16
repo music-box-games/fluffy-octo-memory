@@ -170,10 +170,12 @@ style choice_vbox:
 
 style choice_button is default:
     properties gui.button_properties("choice_button")
+    background "gui/choice_box.png"
+    idle_background "gui/choice_box_idle.png"
+    hover_background "gui/choice_box_hover.png"
 
 style choice_button_text is default:
     properties gui.button_text_properties("choice_button")
-
 
 ################################################################################
 ## Main and Game Menu Screens
@@ -183,8 +185,8 @@ style choice_button_text is default:
 ##
 ## This screen is included in the main and game menus, and provides navigation
 ## to other menus, and to start the game.
-
 screen navigation():
+    $saves_exist = False
     vbox:
         style_prefix "navigation"
 
@@ -195,10 +197,18 @@ screen navigation():
         if main_menu:
             textbutton _("Start") action Start()
 
+        if main_menu or game_menu:
+            textbutton _("Preferences") action  ShowMenu("preferences")
+            if saves_exist:
+                textbutton _("Load")
+
+
         if renpy.variant("pc"):
             ## The quit button is banned on iOS and unnecessary on Android and
             ## Web.
             textbutton _("Quit") action Quit(confirm=not main_menu)
+
+
 
 style navigation_button is default:
     properties gui.button_properties("button")
@@ -223,8 +233,21 @@ screen main_menu():
 
     ## The use statement includes another screen inside this one. The actual
     ## contents of the main menu are in the navigation screen.
+
+    textbutton _("Credits"):
+        style "credits_button"
+
     use navigation
 
+
+
+style credits_button is default:
+    properties gui.button_properties("button")
+    background None
+
+style credits_button_text:
+    xalign 0.05
+    yalign 0.95
 
 ## Game Menu screen ############################################################
 ##
@@ -252,6 +275,7 @@ screen game_menu(title, scroll=None, yinitial=0.0):
 
     if main_menu:
         key "game_menu" action ShowMenu("main_menu")
+
 
 
 style game_menu_outer_frame is empty
@@ -303,6 +327,8 @@ style return_button:
     xpos gui.navigation_xpos
     yalign 1.0
     yoffset -45
+
+
 
 
 ## About screen ################################################################
@@ -371,21 +397,16 @@ screen file_slots(title):
     default page_name_value = FilePageNameInputValue(pattern=_("Page {}"), auto=_("Automatic saves"), quick=_("Quick saves"))
 
     use game_menu(title):
-
         fixed:
-
             ## This ensures the input will get the enter event before any of the
             ## buttons do.
             order_reverse True
-
             ## The page name, which can be edited by clicking on a button.
             button:
                 style "page_label"
-
                 key_events True
                 xalign 0.5
                 action page_name_value.Toggle()
-
                 input:
                     style "page_label_text"
                     value page_name_value
@@ -487,6 +508,17 @@ screen preferences():
     modal True
 
 
+
+
+
+## Credits screen ##############################################################
+##
+## Credits. Self explanatory
+##
+## credits.com
+
+screen credits():
+    tag menu
 
 
 ## History screen ##############################################################
