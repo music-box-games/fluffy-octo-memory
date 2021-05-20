@@ -9,6 +9,7 @@ define myo = Character("Masuyo")
 define kmk = Character("Kameko")
 define dad = Character("Father")
 define mc = Character("Hayato")
+define nur = Character("Nurse")
 
 define u = Character("??????")
 define girl = Character("Girl")
@@ -36,10 +37,21 @@ image masuyo normal = "masuyo/masuyo_normal_standard_1.png"
 ## Standard
 image father normal = "father/father_normal.png"
 image father smile = "father/father_smile.png"
+## Nurse
+## Standard
+image nurse normal = "nurse/nurse_normal.png"
+image nurse talking = "nurse/nurse_normal.png"
+image nurse smile = "nurse/nurse_smile.png"
 ## Backgrounds
 image school front winter = "bg/school_outside/school_main_outside_day_winter.png"
 image school side entrance winter = "bg/school_outside/side_entrance_winter.png"
 image school main stairs = "bg/school_inside/up_main_stairway.png"
+image school main stairs down = "bg/school_inside/down_main_stairway.png"
 image nurse hallway = "bg/school_inside/nurse_hallway.jpg"
 image nurse door closed = "bg/school_inside/nurse_office_doorway_close.png"
 image nurse door open = "bg/school_inside/nurse_office_doorway_open.png"
+image nurse office = "bg/school_inside/doc_office.jpg"
+image classroom hallway day = "bg/school_inside/random_hallway.png"
+image classroom outside = "bg/school_inside/classroom_outside.png"
+image classroom desk = "bg/school_inside/class_behind_desk.png"
+image classroom dyanmic = "bg/school_inside/classroom_dynamic.png"

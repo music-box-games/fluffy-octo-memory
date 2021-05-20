@@ -86,6 +86,70 @@ label gotonursefirst:
     scene nurse door closed
     u "Just a moment."
     "I raise my hand up to knock once more when the door quickly opens and out walks a tall woman with blue hair. She turns back towards the woman, waves, and heads off down the hall without even noticing me."
+    show nurse talking at tq_center
+    nur "Hello, can I help you?"
+    mc "Uh yes, my name is Hayato Ahearne, I was told to come here before class."
+    show nurse smile
+    nur "Ah yes, Hayato, please come in."
+    scene nurse office
+    show nurse smile at tq_center
+    nur "So, how are you doing today?"
+    mc "Well, first day at a new school that's located 300 miles from my home, found out that I had a disease that makes paper cuts something I need to watch out for, oh and I almost died a few weeks ago."
+    show nurse normal
+    "The chipper smile from her face quickly drops into a frown. I feel like an ass for unloading all of that on her. I should apologize."
+    mc "I'm sorry about that. I really haven't had anyone to talk to for the past few days other than my dad, so..."
+    show nurse talking
+    nur "No need to apologize."
+    nur "You'd be surprised at how many other students here are in a similar situation."
+    nur "Now then, I'm going to need you to take off your shirt so I can check your bandages."
+    "I sit down on the hospital bed next to me and unbutton my shirt."
+    ## TODO: close up nurse?
+    hide nurse
+    "I feel the nurse slowly unravel the bandages on my chest. As it gets to the last layer it feels more like she is peeling them off."
+    nur "Well, hello....What do we have here?"
+    "She begins to poke one of my stiches with her hand, granted she had the decency to put on a latex glove first."
+    nur "It appears one of your stitches has come a little loose."
+    "A rush of panic wipes over my body. I try to speak but little more than a stammer comes out."
+    mc "I-I-is that bad?"
+    nur "Well, not necessarily. Let's say you yawn and stretch, then your stitches would rip open and cause you to start bleeding."
+    mc "That sounds pretty bad!"
+    "She seems incredibly calm for this sort of situation."
+    "The doctor at the hospital made it clear how dangerous things could get if I was injured without taking my medication, and I really don't want to find out how effective my meds are."
+    "She stands up."
+    show nurse talking at tq_center
+    nur "Don't worry about it. I'm going to find my suture and fix this right up."
+    "I sit there looking around the room. Given the scattered papers on the desk, and the various medical posters hanging on the walls, I can only assume this doubles as her office."
+    nur "Alright, this will only take a sec."
+    ## TODO: close up nurse again
+    hide nurse
+    "I look away as she starts to work on my upper waist. I try to not focus on the feeling of wire moving through my skin."
+    "After a minute or so she begins to wrap my waist up with fresh gauze."
+    nur "Alright now this is gonna be uncomfortable but I have to check your thigh."
+    "I stand up and shuffle off my pants. It wasn't the cuts on my torso that almost killed me, it was my thigh. Now the nurse is removing the bandages."
+    "Once again, I hear the peeling sound but coming from... lower down."
+    "Apparently the rock I hit cut right through my femoral artery. If we weren't sledding on a hill near the base I would have easily died from blood loss. Doctor said I went through enough blood to fill me up three times. But I am not dead yet, so I guess that's a plus."
+    nur "The stiches on your inner thigh are fine. I applied new bandages so you should be good for a few days. Just be sure to come back here every few days so I can re-apply the bandages."
+    "I start putting my clothes back on."
+    mc "What happens if I don't get them changed?"
+    show nurse normal at tq_center
+    nur "Infection. And I doubt anyone wants an infection...down there."
+    "Jeez, I guess that's one way to put it."
+    mc "I'll be sure to remember, thanks Ms. N. I think I should be getting to class."
+    nur "Alright you stay safe now."
+    scene nurse hallway
+    ## TODO: stop nurses theme
+    ## TODO: start light winter theme
+    "That's one crisis averted. I make my way down the hall and up the stairs, towards my classroom."
+    scene school main stairs
+    "Repeating the directions over and over again in my head so I won't forget."
+    scene classroom hallway day
+    "Looking at the plaque next to the door I see the numbers \"3-2\" scrawled across it."
+    "Just as I start to reach for the handle, the door swings open."
+    #TODO: scenename You're Young Again
+    
+
+
+
 
 
 

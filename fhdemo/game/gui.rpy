@@ -47,14 +47,15 @@ define gui.insensitive_color = u'#8888887f'
 define gui.muted_color = u'#003d51'
 define gui.hover_muted_color = u'#005b7a'
 
+## Fonts and Font Sizes ########################################################
 ## The colors used for dialogue and menu choice text.
-define gui.text_color = u'#c2b59b'
 define gui.interface_text_color = u'#c2b59b'
 define gui.interface_text_outline_color = u'#544b40'
 define gui.interface_text_outline_size = 1
 
-
-## Fonts and Font Sizes ########################################################
+define gui.text_color = u'#c2b59b'
+define gui.text_outline_color = gui.interface_text_outline_color
+define gui.text_ouline_size = gui.interface_text_outline_size
 
 ## The font used for in-game text.
 define gui.text_font = "playtime.ttf"
@@ -214,9 +215,11 @@ define gui.choice_button_borders = Borders(150, 8, 150, 8)
 define gui.choice_button_text_font = gui.text_font
 define gui.choice_button_text_size = gui.text_size
 define gui.choice_button_text_xalign = 0.5
-define gui.choice_button_text_idle_color = "#cccccc"
-define gui.choice_button_text_hover_color = "#ffffff"
+define gui.choice_button_text_idle_color = gui.button_text_idle_color
+define gui.choice_button_text_hover_color = gui.button_text_hover_color
 define gui.choice_button_text_insensitive_color = "#444444"
+define gui.choice_button_text_outline_size = gui.button_text_outline_size
+define gui.choice_button_text_outline_color = gui.button_text_outline_color
 
 
 ## File Slot Buttons ###########################################################
@@ -260,7 +263,7 @@ define gui.skip_ypos = 15
 define gui.notify_ypos = 68
 
 ## The spacing between menu choices.
-define gui.choice_spacing = 33
+define gui.choice_spacing = 66
 
 ## Buttons in the navigation section of the main and game menus.
 define gui.navigation_spacing = 6
