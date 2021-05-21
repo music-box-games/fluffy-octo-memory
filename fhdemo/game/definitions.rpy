@@ -10,6 +10,7 @@ define kmk = Character("Kameko")
 define dad = Character("Father")
 define mc = Character("Hayato")
 define nur = Character("Nurse")
+define sat = Character("Mr. Sato")
 
 define u = Character("??????")
 define girl = Character("Girl")
@@ -24,7 +25,8 @@ define boy = Character("Boy")
 image chioko smile = "chioko/chioko_happy_standard.png"
 image chioko normal = "chioko/chioko_normal_standard.png"
 image chioko talking = "chioko/chioko_talking_standard.png"
-image chioko wink = "chioko/chioko_wing_standard.png"
+image chioko wink = "chioko/chioko_wink_standard.png"
+image chioko giggle = "chioko/chioko_giggle_standard.png"
 ## Masuyo
 ## Standard
 image masuyo smile = "masuyo/masuyo_smile_standard.png"
@@ -42,6 +44,13 @@ image father smile = "father/father_smile.png"
 image nurse normal = "nurse/nurse_normal.png"
 image nurse talking = "nurse/nurse_normal.png"
 image nurse smile = "nurse/nurse_smile.png"
+## Mr. Sato
+## Standard
+image sato normal = "sato/sato_normal_1.png"
+image sato talking = "sato/sato_talking_1.png"
+image sato surprised = "sato/sato_surprised_2.png"
+image sato face = "sato/jeeze_louise.png"
+
 ## Backgrounds
 image school front winter = "bg/school_outside/school_main_outside_day_winter.png"
 image school side entrance winter = "bg/school_outside/side_entrance_winter.png"

@@ -13,6 +13,11 @@ transform tq_left:
     ypos 1.3
     xalign 0.0
 
+transform in_your_face:
+    xalign 0.0
+    yanchor 1.0
+    ypos 1.5
+
 
 transform zoom_tqosl_to_tqosr:
     offscreenleft

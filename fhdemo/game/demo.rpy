@@ -146,12 +146,75 @@ label gotonursefirst:
     "Looking at the plaque next to the door I see the numbers \"3-2\" scrawled across it."
     "Just as I start to reach for the handle, the door swings open."
     #TODO: scenename You're Young Again
+    ## TODO: stop light winter theme
+    ## TODO: start classroom theme
+    show sato excited at tq_center
+    sat "Ah, Mr. Ahearne, good of you to join us! Come, you can introduce yourself to the class."
+    "Wait what?!"
+    "Before I know it, I am pulled into the classroom and I am staring blankly at the class, still trying to comprehend what happened."
+    scene classroom dynamic
+    "The classroom is surprisingly small. Well, fewer students than I expected, heck there are even a few empty seats. Most of the students don't really look all that different from some of the kidns you would find at a regular school."
+    "Most everyone just looks...normal."
+    "There is one girl in the far back with an eye-patch over her left eye and an empty seat on either side of her. To her left and a seat over is another girl who seems...normal. She has navy blue hair and, just like the girl next to her, has a very wide smile."
+    "There's a guy in the front with brown hair down past his ears and his left arm missing, and a girl with long white hair. At least it looks mostly white, there's a hint of cream color to it, but that could be the sun from outside. She has her earbuds in and I doubt she noticed I entered."
+    show sato talking at tq_right
+    sat "Alright, Mr. Ahearne if you could introduce yourself to the class."
+    mc "Hello, my name is uh, Hayato Ahearne, I'm 18 years old, I like to fish, play video games, and read."
+    sat "Excellent! Plenty of rivers up here, I am sure if you catch anything you'll bring it to class to show, eh? Now, please take a seat in the back."
+    "Show it to the class, what?"
+    "Mr. Sato pats me on the back and I snap out of my confusion from what he just said."
+    "I give a bow to the class and make my way to some of the empty desks in the back of the room. I can sit either to the right of the girl with the eye-patch or between her and the girl with the navy-blue hair."
+    menu:
+        "Where should I sit?"
+        "Sit next to the girl with the eye-patch":
+            jump sit_by_eyepatch
+        "Sit between the two girls":
+            jump sit_between
+
+
+label sit_by_eyepatch:
+    "I think it would be best to sit next to the girl with the eye-patch, I have never been too good with girls and it would be like fighting uphill both ways if I were between the two."
+    scene classroom desk
+    "As I place my book-bag at the side of the desk I glance over at the girl next to me. What seemed like a near permanent smile on her face was no a mixture of shock and maybe a dash of terror."
+    "I sit down in my seat and turn towards the front only to see a face made of pure anger and eyebrows."
+    "JEEZ LOUISE!!!"
+    ## TODO: jeeze louise but with face instead of cock
+    show sato face at in_your_face
+    sat "Mr. Ahearne, thank you for choosing your seat. Now then-."
+    "He turns around and walks back towards the front of the class. He starts explaining some kind of science thing, but I was more focused on the sounds of the students giggling at my expense."
+    show sato normal at tq_center
+    sat "Class, I have some work packets for you all. You can work in groups or you can work alone, it's your choice. Please pass any extras back up to the front. Now, if you will excuse me, I have to go discuss something with one of the other teachers."
+    "The teacher hands some stacks of papers to the front row students and then waltzes out the door."
+    hide sato
+    "As soon as the door is closed, and his footsteps can no longer be heard walking away from the room, the entirety of the class begins conversing with each other. Soon enough the girl next to me taps me on the shoulder."
+    "I look to my left to see the girl with the eye-patch smiling at me."
+    show chioko smile at tq_left
+    girl "Hello there."
+    mc "Oh, hi, I'm-"
+    girl "You're new here, Hayato, right?"
+    "The girl's cheeks turn pink realizing the obvious question she just asked. I think my awkardness is rubbing off on the people around me."
+    mc "Yeah that's me. I didn't catch your name?"
+    show chioko normal
+    girl "My name is Chioko Kai."
+    "She introduces herself in a calm, almost restrained voice. I can hardly hear her speak over the sound of the class."
+    "I think the best thing to do would be to take the lead in this conversation."
+    mc "It's nice to meet you Chioko. Hey do you understand what we are supposed to be doing? This work seems...a little advanced."
+    "Her cheeks return to normal and she seems to calm down."
+    show chioko talking
+    chk "Mr. Sato is one of the harder teachers here, but he is also one of the easier ones."
+    "I don't think that makes sense."
+    chk "He will go on about theoretical physics like it's kindergarten level stuff, but as long as you act like you know what you're talking about he should give you a good grade."
+    mc "I don't know if I should be relieved or even more afraid."
+    show chioko giggle
+    "Chioko lets out a small giggle at my joke."
+    mc "I have never been that good of a public speaker, but if that's what it takes to get a good grade in a class where the teacher's crazy, then by all means sign me up."
+    chk "I wouldn't say he's crazy, more just-EEP!"
+    ## TODO: paff sfx
+    ## TODO: chibi thing maybe?????
     
 
 
-
-
-
+label sit_between:
 
 label gotoclassfirst:
     mc "fuck"
