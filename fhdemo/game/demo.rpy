@@ -211,6 +211,16 @@ label sit_by_eyepatch:
     chk "I wouldn't say he's crazy, more just-EEP!"
     ## TODO: paff sfx
     ## TODO: chibi thing maybe?????
+    girl "Chiokooo! You wanna work togetherrrrr?"
+    "Out of nowhere, the girl that was sitting two desks over plopper her head on top of Chioko's."
+    chk "Oh, Mikka, of course you can."
+    chk "Do you want to work with us, Hayato?"
+    mc "Sure, why not?"
+    "I shuffle my desk to move closer to hers, while the other girl pulls over the empty desk in between them."
+    "I look down at the two-page packet of math problems in front of me. Nothing too difficult, but the help mill mak eit go by a lot faster."
+    mc "I forgot to introduce myself, I'm Hayato."
+    show mikka smile at tq_center
+    mkk "Actually, you already did."
     
 
 

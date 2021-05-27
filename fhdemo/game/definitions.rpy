@@ -50,6 +50,14 @@ image sato normal = "sato/sato_normal_1.png"
 image sato talking = "sato/sato_talking_1.png"
 image sato surprised = "sato/sato_surprised_2.png"
 image sato face = "sato/jeeze_louise.png"
+## Mikka
+## Standard
+image mikka happy = "mikka/mikka_happy_standard.png"
+image mikka normal = "mikka/mikka_normal_standard.png"
+image mikka pout = "mikka/mikka_pout_standard.png"
+image mikka smile = "mikka/mikka_smile_standard.png"
+image mikka smirk = "mikka/mikka_smirk_standard.png"
+image mikka talking = "mikka/mikka_talking_standard.png"
 
 ## Backgrounds
 image school front winter = "bg/school_outside/school_main_outside_day_winter.png"
