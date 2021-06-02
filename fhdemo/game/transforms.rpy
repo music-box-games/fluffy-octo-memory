@@ -28,3 +28,4 @@ transform zoom_tqosr_to_tqosl:
     offscreenright
     ypos 1.3
     linear 0.3 offscreenleft
+    

@@ -221,10 +221,192 @@ label sit_by_eyepatch:
     mc "I forgot to introduce myself, I'm Hayato."
     show mikka smile at tq_center
     mkk "Actually, you already did."
-    
+    mc "When did I-oh, right."
+    mkk "It's okay. I don't think I could have gotten through my first day if I hadn't met Chioko."
+    chk "Maybe we should get to work?"
+    mc "Yeah, you're probably right."
+    "We dive into the packet. Every now and then I have to confirm my answers with the two. Math has never been my strong suit. Much of it feels like memorizing equation after equation, except I seem to only be able to remember four or five at a time."
+    ## TODO: light transition
+    "The lunch bell rings and the rest of the class gets up and heads towards the door. The three of us move our desks back into position. Oddly enough, Mr. Sato has yet to return from wherever he went. No one seems to notice as they just stack their papers on the empty desk."
+    show chioko talking at tq_left
+    show mikka normal at tq_center
+    chk "Hey Hayato, you want to have lunch with us? There's an extra seat at our table."
+    mc "Oh, sure."
+    "I pick up my work and walk it over to Mr. Sato's desk with Mikka and Chioko."
+    scene classroom hallway crowded
+    "I am surprised at how spacious and crowded this school is. I try to stay as close to the two girls as I can, so as to not get lost in the flurry of students."
+    scene cafeteria crowded
+    "After a short walk we find ourselves in the cafeteria surrounded by the smell of warm food, a hint of sanitizer, and sweet-perfume."
+    "I can't tell if it's Mikka and Chioko in front of me, or one of the girls around me. Now that I look around more, there are a ton of girls here."
+    "Either we just happen to be walking through a cluster of them or there must be one guy for every three girls at this school."
+    show chioko talking at tq_left
+    chk "Do you want to grab lunch down here then head to our table, or do you want to head straight there?"
+    mc "Well, I didn't have time to cook anything for lunch, or grab anything on the way here, I'll need to grab something real quick."
+    mc "I'll get something real quick and find you at your table."
+    show mikka smirk at tq_center
+    mkk "Oh I doubt that. We'll be right here."
+    "I feel a little uneasy as Mikka flashes a sly little grin. I am pretty sure I would be able to find them, well at least Chioko. But then again, she may not be the only girl in this school with an eyepatch."
+    hide chioko
+    hide mikka
+    "I head over to the line of students, after a moment or two it starts to move and I can get a good look at the food they have here."
+    "The selection here looks surprisingly good. Stir-fry, sushi, steamed white rice, and carrots. Not bad for a first meal. I head back to where the three of us were talking and, sure enough, there they are waiting patiently."
+    show chioko normal at tq_left
+    show mikka smirk at tq_center
+    "Mikka is standing with that same grin she had when I left and Chioko is holding her lunch in front of her."
+    show mikka talking
+    mkk "Alright, let's go eat."
+    show mikka talking with moveoutleft
+    show chioko wink with moveoutleft
+    "As Mikka trots off Chioko turns her head and gives me a wink, I think. I can't tell if they are going to pull a prank on me for being the new guy, or if they're as harmless as they seem."
+    "Chioko doesn't seem like th ekind of girl to pick on the new guy. Or anyone for that matter."
+    "After walking no more than 10 feet we come to a nearly empty table right next to the windows of the cafeteria. I look at them puzzled."
+    scene cafeteria table
+    show mikka happy at tq_center
+    show chioko normal at tq_left
+    "Mikka sits down and spreads her arms out, as if to say \"Eh? What do you think?\""
+    mc "Y'know, I expected something a bit more illustrious. You two made it seem like this was the Holy Grail of tables or something. It's just a table."
+    mkk "But look around you, there's no one here! There's almost never an empty table, and when they have folks in them, people never start at the end of the table and move down-"
+    "Mikka continues on her mini-rant and I glance over at Chioko, she nods at me. Maybe she can read minds, I wanted to ask her if this is normal for Mikka. But hey, at least it's entertaining to watch."
+    show mikka pout
+    mkk "-and then you gotta find the chair, and sometimes other people will thake the chair thinking it's theirs, and then-"
+    "Chioko cuts her off."
+    chk "Mikka, be a good girl and eat your food, I think you're starting to scare Hayato."
+    mkk "Yes Mother."
+    "I try not to choke on my food at the banter between the two. I guess Chioko is the one that \"wears the pants\" in their relationship."
+    "We continue to eat our food as the tables around us and our own begin to fill up with students. I guess we're pretty lucky."
+    "It's amazing how many students are here. It's also very eye opening. So many kids from all over teh country come here because of some sort of condition."
+    "How can there be this many kids all with some sort of disability that precents them from functioning at a regular school? It's a bit depressing, really. Though, I am one of them now."
+    show mikka talking
+    show chioko smile
+    mkk "And that's why I think he should have just stayed at home with his millions instead of ruining-"
+    ## TODO: school bell sfx
+    "Mikka is interrupted by the bell."
+    scene cafeteria crowded
+    "The girls make their way back to the classroom, while I take care of my tray and our extra trash."
+    scene classroom hallway crowded
+    "I retrace my steps and head back to class."
+    scene classroom desk
+    "Sitting down in my seat, I watch as more and more students fill their seats."
+    show sato talking at tq_center
+    sato "Sorry about the wait class. Now, let's get back to work. Uh, where were we...right! Quantum locking!"
+    "A collective groan can be heard from much of the class as the teacher starts the lecture."
+    ## TODO: light transition
+    "The bell rings and everyone begins putting their things away. I catch myself looking over at Chioko as she carefully wraps her scarf around her neck."
+    "I quickly look away, realizing I have been staring far longer than I should have."
+    "I follow my classmates as they head out for the day"
+    ## TODO: stop classroom theme
+    ## TODO: start light winter theme
+    "Classes are done, I am not sure what else I can do other than unpack my things in my dorm."
+    "Well, I guess I could go walk around the school. I have the rest of the day to myself, and I'm not exactly eager to head to my room."
+    "Screw it, I'll looking around a bit. I walk outside the big double doors and start walking toward the adjacent building."
+    scene art building outside
+    "It's a big building that looks significantly different than the main campus. I walk through the front door and I immediately know why it looks so different."
+    "It's the art building. Various artworks covering a wide range of mediums and styles line the walls, from hyper-realistic drawings to abstract works."
+    scene art building hallway
+    "I keep walking down the hallway towards some faint singing, echoing down the long hall. I don't want to intrude just in case it's a class...maybe just a peek."
+    "Classes are out for the day, and it doesn't sound like there's an instructor in there, maybe just a peek."
+    "I carefully walk over to some doors, the source of the singing."
+    "With my shoes now muffled by carpeting, I press my ear up into the door."
+    "There is definitely someone in there, I can't tell if anyone is playing music or if someone is singing along to music."
+    "Taking a step back, I look at the plaque next to the doors."
+    "This is the school's theatre."
+    "I move to the door again, and turn the handle as slowly as possible, making sure to not make any noise."
+    ## TODO: scene name "Mouth Breather"
+    scene school theatre hiding
+    ## TODO: maybe not the hiding bg?
+    ## TODO: heiwako theme
+    "The theatre is almost pitch black except for some lights on stage. I slowly tip-toe my way behind the first row of chairs."
+    "I can make out two girls on stage."
+    ## TODO: heiwako and rina dynamic
+    "There are two girls on stage, a girl with light brown hair in twin tails but they aren't too outwardly defined."
+    "The other girl is taller, she is a bit thinner than the other girl, but her skin is very pale."
+    "She has very long hair, almost like a pale-yellow color."
+    "The pale girl's back is facing me and she is singing as the other girl plays on her cello, come to think of it she looks a bit like the pale girl from my class."
+    "Wait, I think that is her."
+    "The girl on the cello stops playing and looks in my direction!"
+    "Realizing she can see me, I duck out of sight."
+    ## TODO: thump sfx
+    "Shit, they probably think I am some creep or something! Was that technically spying?! Oh crap this was a mistake. Wait, I think they're talking."
+    u "Hey, why did you stop?"
+    u "Well, I was wondering if you wanted to keep going? I mean we do have an audience now."
+    u "I don't see anyone out there."
+    u "I can hear him breathing."
+    "Seriously?! Guess there's no point in hiding if one of them has that kind of ability."
+    mc "You can hear me breathing?!"
+    "I stand up and ask, trying to dodge the obvious question of why I was peeping."
+    palegirl "Oh hey, you're the new guy, aren't you?"
+    "I guess it is the girl from class."
+    mc "Yeah, but I should probably go. I'm really, really sorry. I didn't mean to spy on you or anything."
+    palegirl "No, no, it's fine really."
+    twintailsgirl "At least introduce yourself before you run off."
+    "I guess I don't have much of a choice now. I make my way down the middle aisle and hop up on the elevated stage."
+    scene school theatre stage
+    show heiwako normal at tq_left
+    show rina normal at tq_right
+    "The girl playing the cello is still sitting down but she is gently setting down her instrument, I don't see anything \'wrong\' with her, although something does seem a bit off."
+    show rina talking
+    palegirl "Sorry, I didn't introduce myself earlier, I am Rina Uta."
+    mc "It's nice to meet you, you already know me, so no need for introductions, I guess."
+    "We both giggle as teh girl with the twin-tails stands up, brushes off her skirt, and gives me a little smirk."
+    show heiwako talking
+    twintailsgirl "Well, maybe not for her, but I still haven't made your acquaintance. My name's Heiwako Inasao."
+    "Heiwako extends her hand with a smile and looks right at me."
+    hwk "So, Rina said you're new here?"
+    mc "Oh, yeah. It's my first day actually."
+    "I say, accepting her handshake."
+    show heiwako smile
+    hwk "I think you'll like it here, the people here are really nice. Well, most of them, but I guess that applies to most places."
+    show rina normal
+    rna "So, how did you like the music? Who did you like best?"
+    "Oh, great. I just met them and they're already making me choose sides. This is definitely what I need right now."
+    mc "You were both really, really good, but I don't think I should be picking sides just after meeting you two."
+    "They both giggle."
+    rna "That reminds me, Heiwako, have you heard of the thea-"
+    ## TODO: phone vibrate sfx
+    show heiwako surprise
+    hwk "Oh, I'm sorry, that's my alarm."
+    "She reaches to the cloor and picks up her phone. She presses a button on it, looks in between the two of us and pulls the hair out of her eyes, flashing a small, apologetic smile."
+    show heiwako bashful
+    hwk "I'm sorry but I have to go, it was nice meeting you Hayato. Rina do you mind...?"
+    show rina handwave
+    rna "Oh, no, don't worry about it. I think our new friend here can handle the heavy lifting."
+    show rina normal
+    show heiwako smile
+    hwk "Thank you so much, I'll see you around, Hayato."
+    "Heiwako giggles and stands up."
+    ## TODO: stand up movement
+    "She reaches into her pocket and with a flick of her wrist a retractable cane snaps out. She waves at Rina, turns around and walks out through the back of the theatre."
+    show heiwako smile with moveoutleft
+    ## TODO: stop heiwako theme
+    ## TODO: rina theme
+    "Wait."
+    show rina giggle
+    "I look over at Rina, she smirks and tries to stifle a laugh."
+    rna "She loves doing that to folks who don't know her. She knows just where to look, and what to do to make you think nothings the matter and then at the last second she'll throw you that curveball."
+    mc "I feel a bit bad. Should I feel bad?"
+    show rina talking
+    rna "Nah, you don't know her, it can't be helped. Do you think you coul dhelp me out with this? I understand, if not."
+    "Yeah, I don't remember agreeing to helping with anything, but it's hard to say no to cute girls."
+    menu:
+        "\"Sorry, I gotta get going.\"":
+            jump nohelprina
+        "\"Sure, where does it need to go?\"":
+            jump helprina
 
-
-label sit_between:
 
 label gotoclassfirst:
     mc "fuck"
+
+label sit_between:
+
+label nohelprina:
+
+label helprina:
+    "Sure, where does it need to go?"
+    show rina smile
+    rna "Oh wonderful! Thank you so much! Just over here."
+    "Heiwako had laid her cello next to her carrying case."
+    "As gently as possible, I pull the heavy instrument off the stage floor and set it into the felt lining of the case."
+    "I grab her bow, and set it in the cutout slot. After fiddling with the locks on the case, I have it closed and secure."
+    "Lifting it up on its base is though, I have to handle it with care, but it's so heavy I can't help but manhandle it a bit."
+    
